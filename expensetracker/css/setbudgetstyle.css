@@ -1,0 +1,82 @@
+.page-container {
+    padding: 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-image: url(../images/simple-blue-white-background-with-text-space.jpg);
+}
+
+input {
+    width: calc(20% - 3%);
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #007bff;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    color: #495057;
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        background-color: #007bff;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+}
+
+.budget-form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 90%;
+    font-weight: 20;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .page-container {
+        padding: 20px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+}

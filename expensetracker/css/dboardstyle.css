@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-image: url(../images/simple-blue-white-background-with-text-space.jpg);
+}
+
+.expense-table-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 90%;
+ 
+}
+
+
+.page-container {
+    padding: 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: #1c72ce;
+    transform: scale(1.02);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Border color for cells */
+}
+
+th {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Header text color */
+}
+
+tr:hover {
+    background-color: #78b6f8;
+}
+
+.delete-btn {
+    background-color: #ff4d4d; 
+    color: #fff; 
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000; 
+}
+
+input {
+    width: calc(20% - 3%);
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #007bff;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    color: #495057;
+    display: inline-block;
+}
+
+/* Add this style for the dropdown list */
+select {
+    width: calc(20% - 3%);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #007bff;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    color: #495057;
+    display: inline-block;
+    margin-bottom: 16px; /* Adjusted margin to match other input fields */
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 3%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-size: 14px;
+}
+
+
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .page-container {
+        padding: 20px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+}

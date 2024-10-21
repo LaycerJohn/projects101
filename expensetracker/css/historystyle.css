@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url(../images/simple-blue-white-background-with-text-space.jpg);
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 50%;
+    margin: 10px;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #007bff; 
+    color: #fff; 
+}
+
+
+tr:hover {
+    background-color: #78b6f8;
+}
+
+.budget-info {
+    text-align: initial;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 0;
+    border-radius: 8px;
+    display: block;
+  }
+
+  .budget-info:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+  }
+
+  .budget-label {
+    font-weight: bold;
+  }
+
+  .budget-value {
+    font-size: 1.2em;
+  }
+
+
+
+
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .page-container {
+        padding: 20px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+}
